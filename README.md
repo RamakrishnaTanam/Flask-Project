@@ -39,3 +39,32 @@ Follow these steps to get your environment set up and running:
         ```bash
         source venv/bin/activate
         ```
+
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Initialize the database:
+    - Run the following Python commands to create the database and the required table:
+        ```bash
+        python
+        >>> from app import db
+        >>> db.create_all()
+        ```
+
+6. Run the application:
+    ```bash
+    python app.py
+    ```
+
+7. Open your browser and visit `http://127.0.0.1:5000/` to access the Task Master application.
+
+## Usage
+
+- **Adding a Task**: Enter the task name and click "Add Task" to create a new task.
+- **Viewing Tasks**: All tasks will be displayed in a table on the homepage with the option to delete or update them.
+- **Updating a Task**: Click on "Update" next to a task, edit the content, and click "Update" to save the changes.
+- **Deleting a Task**: Click on "Delete" next to a task to permanently remove it.
+
+        
