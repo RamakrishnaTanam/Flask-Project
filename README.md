@@ -15,3 +15,27 @@ This project helps you organize and keep track of your tasks efficiently in a us
 - **SQLAlchemy**: ORM (Object Relational Mapper) for interacting with the SQLite database.
 - **SQLite**: Lightweight relational database to store tasks.
 
+## Installation
+
+Follow these steps to get your environment set up and running:
+
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/task-master.git
+    cd task-master
+    ```
+
+2. Create a virtual environment (optional but recommended):
+    ```bash
+    python -m venv venv
+    ```
+
+3. Activate the virtual environment:
+    - **Windows**: 
+        ```bash
+        venv\Scripts\activate
+        ```
+    - **Mac/Linux**: 
+        ```bash
+        source venv/bin/activate
+        ```
